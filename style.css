@@ -1,35 +1,150 @@
 body{
+    
+    font-family: 'Roboto', sans-serif;
+    margin:50px;
+    line-height:24px;
+
+}
+.font-bebas{
+    font-family: 'Bebas Neue', cursive;
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    font-size: 64px;
+}
+h3{
+    font-size: 48px;
+}
+h4{
+    font-size: 36px;
+}
+h5{
+    font-size: 24px;
+}
+p{
+    font-size: 16px;
+    color: #3e3e3e;
+}
+section{
+    clear: both;
+    height: 400px;
+    padding-bottom: 100px;
 
 }
 
-.navigation{}
-.top-banner{}
-.half-width{}
-.magenta-text{}
-.orange-text{}
-.red-text{}
-.linked-button{}
+.navigation{
+    text-align: right;
+    font-weight: 700;
+    height: 30px;
+    padding-bottom: 50px;
+}
+.nav{
+    text-decoration: none;
+    color: #3e3e3e;
+    display: inline-block;
+    width: 50px;
+    padding-right:20px;
+}
+.top-banner{
+
+
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+}
+.half-width img{
+    width:100%;
+}
+.magenta-text{
+    color: #363958;
+}
+.orange-text{
+    color: #ff8367;
+}
+.red-text{
+    color: #f46060;
+}
+.linked-button{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    background-color: #f96f61;
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 170px;
+}
 .download-icon{}
 .about{}
-.latest-work{}
+.latest-work{
+    background-color: #f8f9fc;
+}
 .background-gray{}
-.text-align-center{}
-.one-third-width{}
-.work-inquiry{}
+.text-align-center{
+    text-align: center;
+}
+.one-third-width{
+    width:25%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+}
+.one-third-width img{
+    padding: 0 20px 0 20px;
+    width: 80%;
+    height: 60%;
+}
+
+.work-inquiry{
+    background-image: url("shapes/Group_33094_1.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
 .align-center{}
-.align-right{}
-.box-rounded{}
+.align-right{
+    float: right;
+}
+.box-rounded{
+    box-shadow: 5px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
 
 
-#inquiry-bg-1{}
-#text-enquiry-1{}
+#inquiry-bg-1{
+    
+}
+#text-enquiry-1{
+    color: white;
+    text-align: left;
+}
 
 .extra-work{}
-#extra-work-bg-1{}
-#extra-work-bg-2{}
-#extra-work-bg-3{}
+#extra-work-bg-1{
+    background-image: url("images/bangladesh-homeland.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#extra-work-bg-2{
+    background-image: url("images/cycling.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#extra-work-bg-3{
+    background-image: url("images/mygoal-1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 #stay-1{}
+#hello-1{}
 .footer-icons{}
 
 
